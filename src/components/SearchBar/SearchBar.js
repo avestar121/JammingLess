@@ -17,7 +17,7 @@ function SearchBar(props) {
       console.warn(error)
       const clientId = '436316c449eb4e74b83ef0926ad068d4';
       const currentUrl = window.location.href;
-      window.location.href = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&scope=playlist-modify-public&redirect_uri=${currentUrl}`;
+      window.location.href = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&scope=playlist-modify-public&redirect_uri=https://www.youtube.com/`;
     }
   }
 
